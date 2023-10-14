@@ -3,12 +3,12 @@ package cli
 import (
 	"strings"
 
-	"github.com/tus/tusd/v2/pkg/handler"
-	"github.com/tus/tusd/v2/pkg/hooks"
-	"github.com/tus/tusd/v2/pkg/hooks/file"
-	"github.com/tus/tusd/v2/pkg/hooks/grpc"
-	"github.com/tus/tusd/v2/pkg/hooks/http"
-	"github.com/tus/tusd/v2/pkg/hooks/plugin"
+	"github.com/Korpenter/tusd/v2/pkg/handler"
+	"github.com/Korpenter/tusd/v2/pkg/hooks"
+	"github.com/Korpenter/tusd/v2/pkg/hooks/file"
+	"github.com/Korpenter/tusd/v2/pkg/hooks/grpc"
+	"github.com/Korpenter/tusd/v2/pkg/hooks/http"
+	"github.com/Korpenter/tusd/v2/pkg/hooks/plugin"
 )
 
 func getHookHandler(config *handler.Config) hooks.HookHandler {

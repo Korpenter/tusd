@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tus/tusd/v2/pkg/handler"
+	"github.com/Korpenter/tusd/v2/pkg/handler"
 
 	"github.com/tus/lockfile"
 )

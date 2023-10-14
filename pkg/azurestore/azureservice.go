@@ -25,7 +25,7 @@ import (
 	"strings"
 
 	"github.com/Azure/azure-storage-blob-go/azblob"
-	"github.com/tus/tusd/v2/pkg/handler"
+	"github.com/Korpenter/tusd/v2/pkg/handler"
 )
 
 const (

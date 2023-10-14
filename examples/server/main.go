@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/tus/tusd/v2/pkg/filestore"
-	tusd "github.com/tus/tusd/v2/pkg/handler"
+	"github.com/Korpenter/tusd/v2/pkg/filestore"
+	tusd "github.com/Korpenter/tusd/v2/pkg/handler"
 )
 
 func main() {
